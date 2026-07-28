@@ -13,7 +13,7 @@
 
 * 🔗 **Live Web Application:** [https://pranathi062004.github.io/online_quiz_and_examination_system/](https://pranathi062004.github.io/online_quiz_and_examination_system/)
 * 📱 **Android Release APK:** [Download app-release.apk](https://github.com/pranathi062004/online_quiz_and_examination_system/raw/main/web/downloads/app-release.apk)
-* 📦 **GitHub Repository:** [pranathi062004/online_quiz_and_examination_system](https://github.com/pranathi062004/online_quiz_and_examination_system)
+
 
 ---
 

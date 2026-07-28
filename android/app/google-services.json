@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982997077891",
+    "project_id": "live-task-manager-60885",
+    "storage_bucket": "live-task-manager-60885.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982997077891:android:c0e8bc1126b9bc340270b6",
+        "android_client_info": {
+          "package_name": "com.example.online_quiz_exam_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsK5azLxJdOesvT62AIwTK2nHOqlCeTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

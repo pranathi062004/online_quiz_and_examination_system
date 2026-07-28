@@ -30,31 +30,6 @@
 
 ---
 
-## 🛠️ Vercel Deployment & `vercel.json`
-
-The project includes a pre-configured `vercel.json` file in the root directory for instant hosting on Vercel:
-
-```json
-{
-  "version": 2,
-  "cleanUrls": true,
-  "outputDirectory": "build/web",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
-```
-
-### Hosting on Vercel (Step-by-Step):
-1. Go to [Vercel Dashboard](https://vercel.com/new) and log in with GitHub.
-2. Select the repository **`pranathi062004/online_quiz_and_examination_system`**.
-3. Click **Deploy**. Vercel will automatically read `vercel.json` and serve your single-page app (SPA).
-
----
-
 ## 🚀 How to Run Locally
 
 ### Prerequisites

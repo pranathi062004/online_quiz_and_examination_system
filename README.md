@@ -9,6 +9,14 @@
 
 ---
 
+## 🌐 Live Demo & Downloads
+
+* 🔗 **Live Web Application:** [https://pranathi062004.github.io/online_quiz_and_examination_system/](https://pranathi062004.github.io/online_quiz_and_examination_system/)
+* 📱 **Android Release APK:** [Download app-release.apk](https://github.com/pranathi062004/online_quiz_and_examination_system/raw/main/web/downloads/app-release.apk)
+* 📦 **GitHub Repository:** [pranathi062004/online_quiz_and_examination_system](https://github.com/pranathi062004/online_quiz_and_examination_system)
+
+---
+
 ## 🌟 Key Features
 
 * 📱 **Cross-Platform Support**: Runs natively on Android, Web, iOS, macOS, Windows, and Linux.
@@ -22,27 +30,45 @@
 
 ---
 
-## 🌐 Live Web Demo & Hosting
+## 🛠️ Vercel Deployment & `vercel.json`
 
-* **Hosted Web Application:** [Deploy on Vercel or GitHub Pages](https://vercel.com)
-* **GitHub Pages Auto-Deployment:** GitHub Actions workflow included under `.github/workflows/deploy.yml` for zero-config CI/CD.
+The project includes a pre-configured `vercel.json` file in the root directory for instant hosting on Vercel:
+
+```json
+{
+  "version": 2,
+  "cleanUrls": true,
+  "outputDirectory": "build/web",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+```
+
+### Hosting on Vercel (Step-by-Step):
+1. Go to [Vercel Dashboard](https://vercel.com/new) and log in with GitHub.
+2. Select the repository **`pranathi062004/online_quiz_and_examination_system`**.
+3. Click **Deploy**. Vercel will automatically read `vercel.json` and serve your single-page app (SPA).
 
 ---
 
-## 🚀 How to Run & Build
+## 🚀 How to Run Locally
 
 ### Prerequisites
 * Flutter SDK (v3.22+)
-* Android Studio / Xcode / Chrome
+* Android Studio / Chrome
 
 ### Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/online_quiz_exam_system.git
+git clone https://github.com/pranathi062004/online_quiz_and_examination_system.git
 
 # 2. Navigate into project folder
-cd online_quiz_exam_system
+cd online_quiz_and_examination_system
 
 # 3. Fetch dependencies
 flutter pub get
